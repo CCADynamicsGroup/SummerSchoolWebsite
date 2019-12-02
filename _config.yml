@@ -1,6 +1,7 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "CCA Galactic Dynamics Summer School 2020"
+title                    : "Applied Galactic Dynamics"
+subtitle                 : "Summer 2020"
 title_separator          : "-"
 name                     : &name "CCA Dynamics Group"
 remote_theme             : fongandrew/hydeout
