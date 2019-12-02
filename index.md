@@ -28,10 +28,3 @@ TODO
 ## Lecturers and Mentors
 
 TODO
-
-
-TODO: site maintained by
-
-{% for contributor in site.github.contributors %}
-    <a href="{{ contributor.html_url }}">{{ contributor.login }}</a>
-{% endfor %}
