@@ -1,8 +1,9 @@
 # Site Settings
 locale: "en-US"
-title: "Applied Galactic Dynamics"
+title: "Applied Galactic Dynamics Summer School"
 title_separator: "-"
-name: "CCA Dynamics Group"
+name: "Applied Galactic Dynamics Summer School"
+description: "CCA Summer School 2020"
 remote_theme: amitmerchant1990/reverie
 url: http://galacticdynamics.nyc
 
