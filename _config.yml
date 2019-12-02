@@ -4,8 +4,9 @@ title: "Applied Galactic Dynamics Summer School"
 title_separator: "-"
 name: "Applied Galactic Dynamics Summer School"
 description: "Center for Computational Astrophysics / Flatiron Institute | Summer 2020"
-remote_theme: amitmerchant1990/reverie
+# remote_theme: amitmerchant1990/reverie
 url: http://galacticdynamics.nyc
+repository: CCADynamicsGroup/SummerSchoolWebsite
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/orbit.png
@@ -46,6 +47,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 
 # Includes an icon in the footer for each username you enter
@@ -59,3 +61,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - Gemfile
