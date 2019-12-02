@@ -1,10 +1,9 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Applied Galactic Dynamics"
-subtitle                 : "Summer 2020"
 title_separator          : "-"
 name                     : &name "CCA Dynamics Group"
-remote_theme             : fongandrew/hydeout
+remote_theme             : amitmerchant1990/reverie
 
 # Analytics
 analytics:
