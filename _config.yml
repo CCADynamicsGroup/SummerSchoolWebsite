@@ -1,21 +1,20 @@
 # Site Settings
-locale                   : "en-US"
-title                    : "Applied Galactic Dynamics"
-title_separator          : "-"
-name                     : &name "CCA Dynamics Group"
-remote_theme             : amitmerchant1990/reverie
+locale: "en-US"
+title: "Applied Galactic Dynamics"
+title_separator: "-"
+name: "CCA Dynamics Group"
+remote_theme: amitmerchant1990/reverie
+url: http://galacticdynamics.nyc
 
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : "UA-153692380-1"
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/orbit.png
 
+# Google Analytics web tracking code
+google_analytics: UA-153692380-1
 
 # Page config
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -27,7 +26,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-  input: GFM
+  input: GFM  # GitHub flavored Markdown
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
@@ -37,16 +36,7 @@ kramdown:
   enable_coderay: false
 
 
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
+include: ['_pages']
 
 # Plugins
 plugins:
@@ -55,10 +45,16 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email:
+  github: CCADynamicsGroup/SummerSchoolWebsite
+
+
+# Exclude these files from your production site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
