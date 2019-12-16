@@ -146,11 +146,11 @@ hr {
 }
 
 .container.container--large {
-  max-width: 768px;
+  max-width: 800px;
 }
 
 .container.container--large p {
-  max-width: 650px;
+  max-width: 768px;
   margin: 0 auto;
   line-height: 1.3;
   font-weight: 300;
@@ -183,6 +183,7 @@ span.parstart {
 
 .container.container--large p.organizers a {
   margin-left: 4px;
+  white-space: nowrap;
 }
 
 .container.container--large p.organizers a.first {
