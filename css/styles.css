@@ -76,19 +76,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  margin-bottom: 16px;
+  /* margin-bottom: 12px; */
   font-size: 42px;
   font-weight: 500;
 }
 
 h2 {
-  margin-bottom: 16px;
+  /* margin-bottom: 12px; */
   font-size: 30px;
   font-weight: 400;
 }
 
 h3 {
-  margin-bottom: 16px;
+  /* margin-bottom: 12px; */
   font-size: 20px;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 hr {
   width: 300px;
   height: 1px;
-  margin: 96px auto 81px;
+  margin: 72px auto 64px;
   background-color: #666;
   border: none;
 }
@@ -216,7 +216,7 @@ span.parstart {
 }
 
 .header .buttons {
-  margin-top: 64px;
+  margin-top: 30px;
 }
 
 
@@ -255,40 +255,13 @@ span.parstart {
 
 .header {
   height: 100%;
+  width: auto;
   background: url('../images/background.jpg') bottom no-repeat transparent;
   background-size: cover;
-}
 
-.header .header__meta {
-  position: absolute;
-  top: 40px;
-  right: 66px;
-  font-size: 14px;
-  z-index: 10;
-}
-
-.header .header__meta li {
-  display: inline-block;
-}
-
-.header .header__meta li:after {
-  display: inline-block;
-  content: "";
-  width: 1px;
-  height: 10px;
-  margin: 0 13px 0 17px;
-  background-color: #fff;
-  opacity: 0.46;
-}
-
-.header .header__meta li:last-of-type:after {
-  display: none;
-  visibility: hidden;
-}
-
-.header .header__meta strong {
-  font-size: 13px;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header .container {
@@ -296,7 +269,6 @@ span.parstart {
 }
 
 .header .header__introduction {
-  padding-top: 60%;
   text-shadow: 1px 1px 2px #000000;
   z-index: 100;
 }
@@ -352,9 +324,40 @@ span.parstart {
 }
 
 
+/* NAV BAR */
+
+.nav {
+  /* background-color: #333; */
+  overflow: hidden;
+  margin: 15px 0px;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /*********************************************************
   RESPONSIVE
 *********************************************************/
+
+@media(max-height: 460px) {
+  .header .header__scroll {
+    display: none;
+    visibility: hidden;
+  }
+}
 
 @media(max-width: 425px) {
   .button.button--large {
@@ -363,21 +366,6 @@ span.parstart {
 
   hr {
     margin: 76px auto 61px;
-  }
-
-  .editor {
-    overflow-x: scroll;
-  }
-
-  .header .header__meta {
-    margin: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-  }
-
-  .donations .buttons .button {
-    margin-right: 5px;
   }
 }
 
