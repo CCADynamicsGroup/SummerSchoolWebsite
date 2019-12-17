@@ -348,6 +348,28 @@ span.parstart {
   color: black;
 }
 
+
+.headshot-container {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headshot-container img {
+  border-radius: 50%;
+  width: 172px;
+  height: 172px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.headshot-container .caption {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /*********************************************************
   RESPONSIVE
 *********************************************************/
